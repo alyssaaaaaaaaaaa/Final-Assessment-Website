@@ -1,0 +1,110 @@
+body {
+background-color: rgba(255, 255, 255, 0.836);
+margin:0;
+  }
+
+footer{
+    background-color: rgba(85, 99, 179, 0.836);
+    padding: 0%;
+    margin: 5%;
+  }
+  h2 {
+    color: rgb(255, 174, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+    text-indent: 50px;
+     text-align: justify;
+     letter-spacing: 3px;
+     color: rgb(167, 95, 95) 
+  }
+   
+   div.mycontainer {
+     padding: 0%;
+     margin: 0;
+     color:#201d1d;
+     width:33%;  
+     float:left;
+   }
+   
+   h1 {
+     text-align: center;
+     text-transform: uppercase;
+     color: #000000;
+   }
+   
+   
+   a {
+     text-decoration: none;
+     color: #8a6767;
+   }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #5a3a3a;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      text-align: center;
+    }
+    li a {
+      display: block;
+      width: 60px;
+      background-color:  rgba(22, 0, 100, 0.836);
+      ;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+    
+    li {
+      float:inline-start;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(243, 186, 0);
+      text-align: center;
+      padding: 20px 50px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #ddd9fd;
+    }
+    .active {
+      background-color: #d60303;
+    }
+    li a:hover:not(.active) {
+      background-color: #201d1d;
+    }
+    
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px 0;
+      color: #fff;
+      transition: top 0.3s;
+  }
+  
+  .content {
+      /* Adjust padding or margin to make content appear below the navbar */
+      padding-top: 60px; /* Height of the navbar */
+  }
+  .flag{
+    width: 100%;
+    height: auto;
+  }
